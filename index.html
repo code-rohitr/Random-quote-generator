@@ -11,8 +11,17 @@
 
     <!-- js  -->
     <script src="./main.js" defer></script>
+
+    <!-- google fonts CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
+    <!-- nav header -->
+    <div class="nav">
+        <h2>Quote Generator</h2>
+    </div>  
+
     <div class="container">
 
         <div class="bg">
@@ -22,11 +31,17 @@
         
         <div class="quote-container">
             <h3 class="quote" id="quote"></h3>
+            <h4 class="credits" id="credits">- <span id="credits-name"></span></h4>
             <div class="buttons">
                 <button class="btn new-quote">Get New Quote</button>
                 <!-- <button class="btn copy-btn">Copy</button> -->
             </div>
         </div>
     </div>
+
+    <!-- footer section -->
+    <section class="footer">
+        <!-- <h2>created by <a href="https://github.com/code-rohitr">Rohit Raj</a></h2> -->
+    </section>
 </body>
 </html>

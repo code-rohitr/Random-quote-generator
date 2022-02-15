@@ -39,7 +39,7 @@ body{
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4 36);
+    background-color: rgba(0, 0, 0, 0.436);
     /* opacity: 0.6; */
 }
 
@@ -64,6 +64,15 @@ body{
     font-style: italic;
     text-align: center;
     margin-bottom: 20px;
+    position: relative;
+}
+
+.credits{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    font-size: 1.3rem;
+    font-weight: 200;
 }
 
 .btn{
@@ -76,9 +85,30 @@ body{
     border-radius: 100px;
     transition: 100ms color ease-in-out, 100ms background-color ease-in-out;
     margin: 0px 10px;
+    margin-top: 20px;
 }
 
 .btn:hover{
     background-color: white;
     color: black;
+}
+
+
+.nav{
+    /* border: 2px solid red; */
+    background: none;
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.nav h2{
+    font-size: 2rem;
 }
